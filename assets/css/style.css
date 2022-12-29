@@ -1,0 +1,140 @@
+/* color palette
+#070707, #9d9f9f, #f4f7f8 und #AC8059 */
+
+/* font-family
+font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+@font-face {
+    font-family: 'Monoton';
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+/* GLOBAL STYLES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #070707;
+}
+
+/* NAVIGATION STYLE */
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    border-bottom: 1px solid #9d9f9f;
+    background-color: #070707;
+
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.login{
+    margin-right: 40vw;
+}
+
+nav a{
+    color: #9d9f9f;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* MAIN STYLE */
+
+main{
+    height: 80vh;
+    margin-top: 100px;
+    display: flex;
+    background-color: #070707;
+}
+
+.headline{
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+
+h1{
+    color: #f4f7f8;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    width: 400px;
+}
+
+.line{
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color:#AC8059;
+    margin-bottom: 6px;
+}
+
+p{
+    color: #AC8059;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.images{
+    position: relative;
+    height: 90vh;
+    width: 50vw;
+}
+
+.bathroom{
+    position: absolute;
+    width: 35%;
+    left: 10vw;
+}
+
+.table{
+    position: absolute;
+    width: 35%;
+    left: 25vw;
+}
+
+.bedroom{
+    position: absolute;
+    width: 35%;
+    left: 40vw;
+}
+
+
+/* FOOTER STYLE */
+
+footer{
+    height: 10vh;
+    background-color: #9d9f9f;
+}
+
+footer a img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
